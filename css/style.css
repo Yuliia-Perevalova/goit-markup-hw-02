@@ -1,3 +1,21 @@
+:root {
+    --main-text-color: #2E2F42;
+    --second-text-color: #434455;
+    --main-bg-color: #fff;
+    --second-bg-color: #f4f4fd;
+    --btn-bg: #f4f4fd;
+    --btn-bg-active: #404BBF;
+    --btn-text-color: #4D5AE4;
+    --btn-text-color-active: #FFF;
+    
+
+}
+body {
+    font-family:'Roboto', sans-serif;  
+    font-style: normal;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+   }
 .list-without {
     list-style: none;
 }
@@ -5,10 +23,6 @@
     text-decoration: none;
 }
 
-body {
- font-family:'Roboto', sans-serif;  
- color: #2E2F42
-}
 .menu-logo {
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
@@ -28,13 +42,13 @@ text-transform: uppercase;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-color: #2E2F42;
+color: var(--main-text-color)
 }
 .contact-info {
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
-color: #2E2F42;
+color: var(--main-text-color)
 }
 .main-title {
 font-weight: 700;
@@ -54,10 +68,10 @@ letter-spacing: 0.04em;
 background: #4D5AE5;
 color: #FFFFFF;
 }
- 
-.button-exm :hover
-.button-exm :focus {
-    color: #404BBF;;
+.button-order :focus
+.button-order :hover {
+    background-color: #404BBF;
+    cursor: pointer;
 }
 .header-third {
 font-weight: 500;
@@ -69,7 +83,7 @@ letter-spacing: 0.02em;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--second-text-color)
 }
 .header-second {
 font-weight: 700;
@@ -83,14 +97,14 @@ text-transform: capitalize;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-align-items: center;
 letter-spacing: 0.02em;
+color: var(--main-text-color);
 }
 .employee-position {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--second-text-color)
 }
 
 .menu-logo-second {
@@ -118,7 +132,7 @@ color: #E7E9FC;
 
 .wrapper-light {
  width: 1440px;
-background: #F4F4FD;
+background: var(--second-bg-color);
 }
 
 .wrapper-footer {
@@ -133,7 +147,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 color: #4D5AE5;
-background-color:#F4F4FD;
+background-color: var(--second-bg-color);
 border: 1px; #E7E9FC;
 }
 .button-portfolio :hover
@@ -148,11 +162,11 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--main-text-color)
 }
 .project-item {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--second-text-color)
 }
