@@ -1,0 +1,160 @@
+.list-without {
+    list-style: none;
+}
+.list-without-dash {
+    text-decoration: none;
+}
+
+body {
+ font-family:'Roboto', sans-serif;  
+ color: #2E2F42
+}
+.menu-logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.blue-word  {
+    color: #4D5AE5;
+}
+
+.menu-nav {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: #2E2F42;
+}
+.contact-info {
+font-style: normal;
+font-size: 16px;
+line-height: 1.5;
+color: #434455
+}
+.main-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.button-order {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+background: #4D5AE5;
+color: #FFFFFF;
+}
+ 
+.button-exm :hover
+.button-exm :focus {
+    color: #404BBF;;
+}
+.header-third {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.descr-first {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.header-second {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+.employee {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+}
+.employee-position {
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.menu-logo-second {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+}
+.descr-logo {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+/*============ Wrapper==========  */
+.wrapper-dark {
+    width: 1440px;
+    /* height: 600px; */
+    background: #2E2F42;
+}
+
+.wrapper-light {
+ width: 1440px;
+background: #F4F4FD;
+}
+
+.wrapper-footer {
+width: 1440px;
+/* height: 310px; */
+background: #2E2F42;
+}
+
+/*=========== Button-portfolio======== */
+.button-portfolio {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: #4D5AE5;
+background-color:#F4F4FD;
+border: 1px; #E7E9FC;
+}
+.button-portfolio :hover
+.button-portfolio :focus 
+
+.project {
+    color: #2E2F42;
+}
+
+.project-descr {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.project-item {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
