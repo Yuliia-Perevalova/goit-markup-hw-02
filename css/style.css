@@ -7,20 +7,19 @@
     --btn-bg-active: #404BBF;
     --btn-text-color: #4D5AE4;
     --btn-text-color-active: #FFF;
-    
-
 }
+
 body {
     font-family:'Roboto', sans-serif;  
-    font-style: normal;
     color: #2E2F42;
     background-color: #FFFFFF;
    }
 .list-without {
     list-style: none;
 }
-.list-without-dash {
+.link {
     text-decoration: none;
+    display: flex;
 }
 
 .menu-logo {
@@ -33,10 +32,13 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-
 .blue-word  {
     color: #4D5AE5;
 }
+.menu-logo :focus{
+    color: #4D5AE5
+}
+
 
 .menu-nav {
 font-weight: 500;
@@ -44,14 +46,21 @@ font-size: 16px;
 line-height: 1.5;
 color: var(--main-text-color)
 }
+.menu-nav :hover{
+    color: #404BBF;;
+}
 .contact-info {
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 color: var(--main-text-color)
 }
+
+
+.mail.info :hover {
+color: #404BBF; 
+}
 .main-title {
-font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
@@ -71,7 +80,6 @@ color: #FFFFFF;
 .button-order :focus
 .button-order :hover {
     background-color: #404BBF;
-    cursor: pointer;
 }
 .header-third {
 font-weight: 500;
@@ -86,7 +94,6 @@ letter-spacing: 0.02em;
 color: var(--second-text-color)
 }
 .header-second {
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -143,10 +150,9 @@ background: #2E2F42;
 
 /*=========== Button-portfolio======== */
 .button-portfolio {
-font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-color: #4D5AE5;
+color: var(--btn-text-color);
 background-color: var(--second-bg-color);
 border: 1px; #E7E9FC;
 }
